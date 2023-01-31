@@ -14,4 +14,10 @@ var timeEl = document.getElementById("time");
  var choice3 = document.getElementById("button3");
  var choice4 = document.getElementById("button4");
  var questionIndex = 0;
-​
+
+
+startButton.addEventListener('click',function(){
+    questionsContainer.classList.remove('hide');
+    startContainer.classList.add('hide');
+})
+
